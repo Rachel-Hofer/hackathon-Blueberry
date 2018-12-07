@@ -27,6 +27,8 @@ h1{
     color: black;
     width: 70%;
     margin: auto;
+    margin-bottom: 45px;
+    margin-top: 10px;
 }
 
 .mainDiv {
@@ -186,7 +188,7 @@ h1{
     display: flex;
     justify-content: space-around;
     /* border: 1px solid gray; */
-    padding: 20px;
+    /* padding: 20px; */
   }
   .each-nutrition-div{
     /* border: 2px solid black; */
@@ -244,7 +246,12 @@ h1{
       background-repeat: no-repeat; 
       height: 100%;
       background-position: center;
-      
-      
+  }
 
+  .newClass {
+    min-height: 40vh;
+   background: #5349ae;
+   justify-content: space-around;
+   display: flex;
+   align-items: center;
   }
