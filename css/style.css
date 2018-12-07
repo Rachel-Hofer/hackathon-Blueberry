@@ -168,12 +168,15 @@ h1{
  
  }
  
- 
- .footer a:hover{
- 
- 
- }
+.theImage {
+    position: absolute;
+    width: 500px;
+    z-index: -1;
+}
 
+.textYes {
+    z-index: 1;
+}
 
 /* ROSS's part */
 .nutrion-benefits-div{
@@ -235,8 +238,8 @@ h1{
   }
 
   .navAndRoss{
-      background-color: lightgray;
-      background-image: url('images/blueberry1.jpg') ;
+      /* background-color: lightgray; */
+      /* background-image: url('images/blueberry1.jpg') ; */
       background-size : cover;
       background-repeat: no-repeat; 
 
