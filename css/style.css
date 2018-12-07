@@ -239,8 +239,12 @@ h1{
 
   .navAndRoss{
       /* background-color: lightgray; */
-      /* background-image: url('images/blueberry1.jpg') ; */
+      background-image: url('../images/blueberry1.png') ;
       background-size : cover;
       background-repeat: no-repeat; 
+      height: 100%;
+      background-position: center;
+      
+      
 
   }
